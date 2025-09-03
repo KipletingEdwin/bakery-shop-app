@@ -15,8 +15,9 @@
       <ion-button slot="end">
         <ion-icon slot="icon-only" name="cart"></ion-icon>
       </ion-button>
+
       <ion-button slot="end" class="notification">
-        <ion-icon slot="icon-only" name="notification"></ion-icon>
+        <ion-icon slot="icon-only" name="notifications-outline"></ion-icon>
       </ion-button>
     </ion-item>
 
@@ -30,6 +31,8 @@
         type="search"
         class="srchBar"
         mode="ios"
+        placeholder="Search"
+        routerLink="/tabs/search"
         >
 
         </ion-searchbar>
@@ -37,6 +40,12 @@
       </ion-col>
 
       <ion-col size="2">
+        <ion-button color="light">
+          <ion-icon slot="icon-only" name="options" color="primary">
+
+          </ion-icon>
+
+        </ion-button>
         
       </ion-col>
 

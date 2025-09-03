@@ -35,5 +35,23 @@ ion-header {
         margin-inline-start: 5px;
       }
     }
+
+    ion-row{
+      display: flex;
+      align-items: center;
+      margin: 0 10px 10px 10px;
+      ion-button{
+        ion-icon{
+          font-size: var(--icon-size-medium);
+          padding: 0.5rem;
+        }
+      }
+      .srchBar{
+        padding: 0;
+        --border-radius: 10px;
+        --icon-color: var(--ion-color-medium);
+
+      }
+    }
   }
 }

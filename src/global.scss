@@ -37,3 +37,9 @@
 
 
 //@import '@ionic/angular/css/palettes/dark.system.css';
+
+.srchBar{
+    .searchbar-input{
+        font-size: var(--font-size-medium) !important;
+      }
+}
