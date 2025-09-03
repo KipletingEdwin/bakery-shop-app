@@ -23,9 +23,16 @@ ion-header {
 
       ion-button [slot="end"]{
         --background: rgba(255,255,255,0.2);
-        
-
-
+        box-shadow: 0 4px 6px  rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        ion-icon {
+            font-size: var(--icon-size-medium);
+            padding: 5px 0;
+        }
+      }
+      ion-button.notification{
+        margin-inline-start: 5px;
       }
     }
   }

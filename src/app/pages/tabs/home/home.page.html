@@ -1,4 +1,4 @@
-<ion-header >
+<ion-header>
   <ion-toolbar color="primary">
     <ion-item lines="none">
       <ion-label>
@@ -7,11 +7,8 @@
           <ion-icon name="location"></ion-icon>
           <ion-text>New Delhi</ion-text>
           <ion-button fill="clear" color="light">
-            <ion-icon slot="icon-only"
-            name="chevron-down-outline"
-            ></ion-icon>
+            <ion-icon slot="icon-only" name="chevron-down-outline"></ion-icon>
           </ion-button>
-
         </p>
       </ion-label>
 
@@ -20,14 +17,31 @@
       </ion-button>
       <ion-button slot="end" class="notification">
         <ion-icon slot="icon-only" name="notification"></ion-icon>
-
       </ion-button>
-
     </ion-item>
 
+    <ion-row>
+      <ion-col size="12">
+        <ion-searchbar
+        debounce="800"
+        color="light"
+        #searchInput
+        inputmode="search"
+        type="search"
+        class="srchBar"
+        mode="ios"
+        >
+
+        </ion-searchbar>
+
+      </ion-col>
+
+      <ion-col size="2">
+        
+      </ion-col>
+
+    </ion-row>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
-</ion-content>
+<ion-content> </ion-content>
